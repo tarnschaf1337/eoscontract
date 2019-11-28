@@ -1,4 +1,0 @@
---startparams
-
-touch tester.wasm && rm tester.wasm && eosio-cpp -abigen -I include -R resource -contract tester -o tester.wasm src/tester.cpp 
-
